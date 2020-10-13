@@ -1,0 +1,17 @@
+@import './config';
+header{
+    background-image: url("img/background.jpg");
+    object-fit: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+    color: #eeeeee;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 30vh;
+  }
+header h1 {
+font-size: 6vmax; }
+
+header h2 {
+font-size: 3vmax; }

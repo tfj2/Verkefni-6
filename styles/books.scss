@@ -1,0 +1,55 @@
+@import './config';
+.books {
+    margin-bottom: 2rem; }
+  
+  .books .col {
+    margin-bottom: 2rem; }
+  
+  .bookchild {
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 100%;
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    background-color: #cccccc; }
+  
+  .bookchild > .content {
+    padding: 0.5rem;
+    border: 1px solid #999999;
+    border-top: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  
+  .bookchild .image {
+    height: 200px;
+    overflow: hidden; }
+  
+  .bookchild .image img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    transition: transform 300ms ease-in-out; }
+  
+  .bookchild:hover .image img {
+    transform: scale(1.3); }
+  
+  .bookchild h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem; }
+  
+  .bookchild h4 {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    text-transform: uppercase; }
+  
+  .bookchild .buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  
+  .price {
+    margin-right: 0.5rem; }
